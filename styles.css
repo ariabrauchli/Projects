@@ -8,4 +8,10 @@ nav {
     background-color: #aad7b9;
     
     } 
-
+nav ul {
+    background-color: #84aac2;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+    }
