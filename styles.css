@@ -2,3 +2,10 @@ html {
     font-family: 'Tahoma',  sans-serif;
     padding: 30px;
 }
+nav {
+    padding: 200px;
+    top:0;
+    background-color: #aad7b9;
+    
+    } 
+
