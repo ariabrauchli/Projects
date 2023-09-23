@@ -2,3 +2,19 @@ html {
     font-family: 'Tahoma',  sans-serif;
     padding: 30px;
 }
+nav {
+    padding: 200px;
+    top:0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    background-color: #aad7b9;
+    
+    } 
+nav ul {
+    background-color: #84aac2;
+      margin: 0;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      padding: 0;
+      list-style: none;
+      display: flex;
+    }
