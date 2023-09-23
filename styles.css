@@ -1,20 +1,24 @@
 html {
-    font-family: 'Tahoma',  sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F4F7F5;
     padding: 30px;
 }
 nav {
-    padding: 200px;
+    padding: 2em;
+    /* position: sticky; */
     top:0;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    background-color: #aad7b9;
-    
+    background-color: #F4F7F5;
     } 
 nav ul {
-    background-color: #84aac2;
       margin: 0;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       padding: 0;
       list-style: none;
       display: flex;
+      justify-content: space-between;
+      font-size: 26px;
+    }
+nav a {
+    color: #333333;
+    text-decoration: none;
+    padding: .5em 1em;
     }
