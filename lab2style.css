@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Petrona&family=Urbanist&display=swap');
 body{
@@ -14,7 +14,7 @@ p{
     margin:0 auto 0 auto;
 }
 ul,p{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
 
 }
 ul li{
