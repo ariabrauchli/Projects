@@ -1,0 +1,85 @@
+table,
+th,
+td {
+    border-collapse: collapse;
+}
+
+table {
+    margin-bottom: 30px;
+    text-align: center;
+    width: 50px;
+}
+
+td {
+    border: 2px solid rgb(113, 22, 22);
+    text-align: center;
+    width: 70px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+
+h1,
+h2,
+h3,
+th,
+legend {
+    font-family: "Roboto Mono", serif;
+}
+
+p,
+li,
+td,
+label {
+    font-family: "Roboto Mono", Arial, sans-serif;
+    line-height: 2rem;
+}
+
+caption {
+    font-family: "Roboto Mono", Arial, sans-serif;
+    font-style: italic;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Style page content */
+.main {
+    padding: 0px 10px;
+}
+
+.wrapper {
+    margin-left: 0;
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+#main-nav {
+    padding-bottom: 10px;
+}
+
+#main-header {
+    padding-top: 2rem;
+}
+
+form {
+    padding-bottom: 2%;
+}
