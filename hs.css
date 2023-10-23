@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petrona&family=Urbanist:wght@100&display=swap');
 
 body{
     background-color: #d8f2e9;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Petrona', serif;
     color: #212426;
 }
 p{
@@ -14,7 +14,7 @@ p{
     margin:0 auto 0 auto;
 }
 ul,p{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Urbanist', sans-serif;
 
 }
 ul li{
