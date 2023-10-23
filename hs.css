@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Young+Serif&display=swap');
 
 body{
-    background-color: #D8E8F2;
-    font-family: 'Young Serif', serif;
+    background-color: #d8f2e9;
+    font-family: 'Urbanist', sans-serif;
     color: #212426;
 }
 p{
