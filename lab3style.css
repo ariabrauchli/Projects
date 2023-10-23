@@ -39,7 +39,7 @@ nav ul {
 }
 
 nav li {
-    margin: 5px 0;
+    margin: 4px 0;
 }
 
 .material-icons {
@@ -56,7 +56,7 @@ table, th, td {
 }
 
 th, td {
-    padding: 8px 12px;
+    padding: 10px 12px;
     text-align: left;
 }
 
@@ -73,12 +73,11 @@ input[type="text"], input[type="email"], textarea {
 }
 
 input[type="submit"] {
-    background: #333;
-    color: #fff;
+    background: #2a2929;
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
-    cursor: pointer;
-    transition: background 0.3s;
+    
 }
 
 input[type="submit"]:hover {
