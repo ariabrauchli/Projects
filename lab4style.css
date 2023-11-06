@@ -64,11 +64,11 @@ footer {
   "footy     footy     footy";
 }
 
-header {grid-area: heady; background:rgb(181, 139, 89);}
+header {grid-area: heady; background:#BF5D39;}
 nav {grid-area: navvy; background:#D97B29;}
 main {grid-area: mainy; background: rgb(240, 234, 182); max-height: 100%;}
 #aside1 {grid-area: aside1; background: rgb(241, 202, 174);}
-#aside2 {grid-area: aside2; background: #034159;}
+#aside2 {grid-area: aside2; background: #D99379;}
 footer {grid-area: footy; background: #D99379;}
 
 nav ul {
