@@ -77,6 +77,8 @@ nav ul {
 display: flex;
 flex-flow: row nowrap;
 justify-content: space-around;
+list-style-type: none
+color black;
 }
 
 nav ul li {
