@@ -10,7 +10,7 @@
 }
 
 body {
-  background: rgb(181, 207, 173);
+  background: #F2B279;
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -49,7 +49,7 @@ footer {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  background: rgb(155, 188, 147);
+  background: #F2C166);
   display: grid;
   width: 100vw;
   height: 100vh;
@@ -65,11 +65,11 @@ footer {
 }
 
 header {grid-area: heady; background:rgb(181, 139, 89);}
-nav {grid-area: navvy; background:rgba(167, 59, 183, 0.689);}
+nav {grid-area: navvy; background:#D97B29;}
 main {grid-area: mainy; background: rgb(240, 234, 182); max-height: 100%;}
 #aside1 {grid-area: aside1; background: rgb(241, 202, 174);}
-#aside2 {grid-area: aside2; background: rgb(191, 226, 246);}
-footer {grid-area: footy; background: rgb(171, 171, 171);}
+#aside2 {grid-area: aside2; background: #034159;}
+footer {grid-area: footy; background: #D99379;}
 
 nav ul {
 display: flex;
