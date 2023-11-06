@@ -40,7 +40,7 @@ main,
 aside,
 footer {
   padding: 3em;
- 
+  border: .5px black solid;
 }
 
 header,
