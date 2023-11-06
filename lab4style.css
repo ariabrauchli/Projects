@@ -49,7 +49,7 @@ footer {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  background: #F2C166);
+  background: #F2C166;
   display: grid;
   width: 100vw;
   height: 100vh;
