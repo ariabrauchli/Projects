@@ -56,20 +56,20 @@ footer {
   grid-template-columns:
    1fr       2fr       1fr;
   grid-template-areas:
-  "heady     heady     heady"
-  "navvy     navvy     navvy"
-  "aside1    mainy     aside2"
-  "aside1    mainy     aside2"
-  "aside1    mainy     aside2"
-  "footy     footy     footy";
+  "head1     head1     head1"
+  "nav1     nav1     nav1"
+  "aside1    main1     aside2"
+  "aside1    main1     aside2"
+  "aside1    main1     aside2"
+  "foot     foot     foot";
 }
 
-header {grid-area: heady; background:#BF5D39;}
-nav {grid-area: navvy; background:#D97B29;}
-main {grid-area: mainy; background: rgb(240, 234, 182); max-height: 100%;}
+header {grid-area: head1; background:#D99379;}
+nav {grid-area: nav1; background:#D97B29;}
+main {grid-area: main1; background: rgb(240, 234, 182); max-height: 100%;}
 #aside1 {grid-area: aside1; background: rgb(241, 202, 174);}
-#aside2 {grid-area: aside2; background: #D99379;}
-footer {grid-area: footy; background: #D99379;}
+#aside2 {grid-area: aside2; background: rgb(241, 202, 174);}
+footer {grid-area: foot; background: #D99379;}
 
 nav ul {
 display: flex;
@@ -88,11 +88,11 @@ nav ul li {
 grid-template-columns:
    1fr 1fr;
 grid-template-areas:
-  "heady heady"
-  "navvy navvy"
-  "mainy mainy"
+  "head1 head1"
+  "nav1 nav1"
+  "main1 main1"
   "aside1 aside2"
-  "footy footy";
+  "foot foot";
 }
 }
 
@@ -102,12 +102,12 @@ grid-template-areas:
 grid-template-columns:
    1fr;
 grid-template-areas:
-  "heady"
-  "mainy"
+  "head1"
+  "main1"
   "aside1"
   "aside2"
-  "navvy"
-  "footy";
+  "nav1"
+  "foot";
 }
 nav ul {
   flex-flow: column nowrap;
