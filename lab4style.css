@@ -27,8 +27,8 @@ h3 {
 }
 
 p {
-  margin: 1.8em 0;
-  line-height: 1.8em;
+  margin: 2em 0;
+  line-height: 2em;
 
 }
 
@@ -39,8 +39,8 @@ nav,
 main,
 aside,
 footer {
-  padding: 2em;
-  border: .5px black solid;
+  padding: 3em;
+  border: 1px black solid;
 }
 
 header,
