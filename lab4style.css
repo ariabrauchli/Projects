@@ -64,8 +64,8 @@ footer {
   "foot     foot     foot";
 }
 
-header {grid-area: head1; background:#D99379;}
-nav {grid-area: nav1; background:#D97B29;}
+header {grid-area: head1; background:#BF5D39;}
+nav {grid-area: nav1; background:#D99379;}
 main {grid-area: main1; background: rgb(240, 234, 182); max-height: 100%;}
 #aside1 {grid-area: aside1; background: rgb(241, 202, 174);}
 #aside2 {grid-area: aside2; background: rgb(241, 202, 174);}
