@@ -1,130 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Khand&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Poppins:wght@400;700&display=swap');
 
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-nav a{
-    color: #000000;
-}
-body {
-  background: #F2B279;
-  font-family: 'Montserra', sans-serif;
-  font-weight: 300;
-  font-size: 15px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} /* remove all default styling */
+
+header, footer {
+    text-align: center;
 }
 
-h1,
-h2,
-h3 {
-  font-family: 'Merriweather', serif;
-  font-weight: normal;
-  padding: .2em 0;
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #7EA1C4;
+}
+
+h1, h2, h3 {
+    padding: .2em 0;
+    font-family: 'Merriweather', serif;
 }
 
 p {
-  margin: 2em 0;
-  line-height: 2em;
-
+    margin: 1.8em 0;
+    line-height: 1.8em;
+    color: #183154;
 }
 
-h2 {font-size:1.25em;}
-
-header,
-nav,
-main,
-aside,
-footer {
-  padding: 3em;
-  border: 1px black solid;
+header, nav, main, aside, footer {
+    padding: 1.5em;
 }
 
-header,
-footer {
-  text-align: center;
-}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    width: 100vw;
+    height: 100vh; 
+    grid-template-columns: 
+     1fr    2fr     1fr;
+    grid-template-areas:
+    "head head head"
+    "navv navv navv"
+    "asd1 main asd2"
+    "asd1 main asd2"
+    "asd1 main asd2"
+    "foot foot foot";
+} /* grid template definition */ 
 
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: grid;
-        width: 100vw;
-        height: 100vh; 
-        grid-template-columns: 
-         1fr    2fr     1fr;
-  grid-template-areas:
-  "head1     head1     head1"
-  "nav1     nav1     nav1"
-  "aside1    main1     aside2"
-  "aside1    main1     aside2"
-  "aside1    main1     aside2"
-  "foot     foot     foot";
-}
-
-header {grid-area: head1; background:#D99379;}
-nav {grid-area: nav1; background:#D97B29;}
-main {grid-area: main1; background: rgb(240, 234, 182); max-height: 100%;}
-#aside1 {grid-area: aside1; background: rgb(241, 202, 174);}
-#aside2 {grid-area: aside2; background: rgb(241, 202, 174);}
-footer {grid-area: foot; background: #D99379;}
+header {grid-area: head; background-color: #9ECBF7; border: black;}
+nav {grid-area: navv; background-color: #B0D9FF;}
+main {grid-area: main; background-color: #8EB6DE;}
+#aside1 {grid-area: asd1; background-color: #9ECBF7;}
+#aside2 {grid-area: asd2; background-color: #9ECBF7;}
+footer {grid-area: foot;}
 
 nav ul {
-display: flex;
-flex-flow: row nowrap;
-justify-content: space-around;
-list-style-type: none
-
-}
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+} /* display nav as row */
 
 nav ul li {
-  list-style: none
-  color black;
+    list-style: none;
 }
+
+aside ul {
+    display: flex;
+    flex-flow: column;
+}
+
+aside ul li {
+    list-style: none;
+    padding: 10px 5px;
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+/* media queries */ 
+@media screen
+    and (min-width: 641px)
+    and (max-width: 900px) {
+        .container {
+            grid-template-columns:
+             1fr 1fr;
+            grid-template-areas:
+            "head head"
+            "navv navv"
+            "main main"
+            "asd1 asd2"
+            "foot foot";
+        }
+    } /* tablet dimensions */ 
 
 @media screen
-  and (min-width: 641px)
-  and (max-width: 900px)  {
-.container {
-grid-template-columns:
-   1fr 1fr;
-grid-template-areas:
-  "head1 head1"
-  "nav1 nav1"
-  "main1 main1"
-  "aside1 aside2"
-  "foot foot";
-}
-}
-
-@media screen
-  and (max-width: 640px)  {
-.container {
-grid-template-columns:
-   1fr;
-grid-template-areas:
-  "head1"
-  "main1"
-  "aside1"
-  "aside2"
-  "nav1"
-  "foot";
-}
-nav ul {
-  flex-flow: column nowrap;
-  text-align: center;
-}
-nav ul li a {
-  display: block;
-  padding: 10px 5px;
-  margin: 3px;
-  border: 1px black solid;
-  background: white;
-
-
-}
-
-  }
+    and (max-width: 640px) {
+        .container {
+            grid-template-columns:
+             1fr; 
+            grid-template-areas:
+            "head"
+            "main"
+            "asd1"
+            "asd2"
+            "navv"
+            "foot";
+        }
+        nav ul {
+            flex-flow: column nowrap;
+            text-align: center;
+        } /* display nav as column */ 
+        nav ul li {
+            display: block;
+            padding: 10px 5px;
+            margin: 5px;
+            background-color: white;
+        }
+    } /* mobile (phone) dimensions */
