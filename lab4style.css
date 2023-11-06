@@ -48,15 +48,14 @@ footer {
   text-align: center;
 }
 
-.container {
-  max-width: 1250px;
-  margin: 0 auto;
-  background: #F2C166;
-  display: grid;
-  width: 100vw;
-  height: 100vh;
-  grid-template-columns:
-   1fr       2fr       1fr;
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        width: 100vw;
+        height: 100vh; 
+        grid-template-columns: 
+         1fr    2fr     1fr;
   grid-template-areas:
   "head1     head1     head1"
   "nav1     nav1     nav1"
