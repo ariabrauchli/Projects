@@ -112,9 +112,9 @@ hr{
 }
 
 header {grid-area: head1; background:white;}
-nav {grid-area: nav1; background:#B6FF97;}
+nav {grid-area: nav1; background:#cad3ed}
 main {grid-area: main1; background: #f7f7f7; max-height: 100%;}
-#side1 {grid-area: side1; background: #F7f7f7;}
+#side1 {grid-area: side1; background: #Ffffff;}
 footer {grid-area: foot1; background: white;}
 
 nav ul {
