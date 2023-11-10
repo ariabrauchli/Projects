@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
@@ -10,6 +12,7 @@ header, footer {
 }
 
 header, main, aside{
+    font-family: 'Spicy Rice', serif;
     padding: 2em;
 }
 
