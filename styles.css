@@ -61,13 +61,13 @@ p{
 
 hr{
     margin-bottom:1.2em;
-    background-color:#404040;
+    background-color:#cad3ed;
     height:3px;
 }
 
 .skip-link {
-    background: black;
-    color: #fff;
+    background: #cad3ed;
+    color: #6277bf ;
     font-weight: 700;
     padding: 4px;
     position: absolute;
