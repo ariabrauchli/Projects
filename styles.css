@@ -140,8 +140,11 @@ nav ul li {
     list-style: none
     color #1f0e1f ;
 }
-    
-
+.me{
+    width: 25%;
+    float: left;
+    padding: 2% 4% 2% 0%;
+}
     
 @media screen
     and (max-width: 640px) {
