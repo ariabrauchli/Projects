@@ -45,12 +45,12 @@ h2{
 }
 
 a{
-    color:#404040;
+    color:#000000;
     text-decoration: none;
 }
 
 a:hover{
-    color:lightslategray;
+    color:rgb(247, 248, 248);
 }
 
 p{
@@ -169,7 +169,7 @@ nav ul li {
       padding: 10px 5px;
       margin: 5px;
       background: white;
-      color: #1f0e1f ;
+      color: #000000 ;
     }
 }
 
