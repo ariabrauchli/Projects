@@ -123,10 +123,12 @@ nav ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    color: #1f0e1f ;
 }
     
 nav ul li {
     list-style: none
+    color #1f0e1f ;
 }
     
   
@@ -159,6 +161,7 @@ nav ul li {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-around;
+        color: #1f0e1f ;
       }
   
     nav ul li a {
@@ -166,6 +169,7 @@ nav ul li {
       padding: 10px 5px;
       margin: 5px;
       background: white;
+      color: #1f0e1f ;
     }
 }
 
