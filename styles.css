@@ -108,22 +108,19 @@ hr{
 }
 
 .container {
-    max-width: 1300px;
-    margin: 0 auto;
-    background: #cad3ed;
     display: grid;
-    width: 100vw;
-    height: 100vh;
-    grid-template-columns:
-     1.25fr       3fr       1fr;
+    grid-template-columns: 1.25fr 3fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
     grid-template-areas:
-    "head1     head1     head1"
-    "nav1      nav1      nav1"
-    "side1     main1     main1"
-    "side1     main1     main1"
-    "side1     main1     main1"
-    "foot1     foot1     foot1";
-}
+      "head1 head1 head1"
+      "nav1 nav1 nav1"
+      "side1 main1 main1"
+      "side1 main1 main1"
+      "side1 main1 main1"
+      "foot1 foot1 foot1";
+    align-items: center;
+    justify-content: center;
+  }
 
 header {grid-area: head1; background:white;}
 nav {grid-area: nav1; background:#6277bf}
