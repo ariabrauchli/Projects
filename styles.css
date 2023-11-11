@@ -159,6 +159,7 @@ nav ul li {
         }
         .me {
             width: 1fr;
+            float: center;
         }
         
         nav {
