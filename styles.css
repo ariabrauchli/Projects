@@ -70,7 +70,7 @@ hr{
     height:3px;
 }
 
-.skip-link {
+..skip-link {
     background: black;
     color: #fff;
     font-weight: 700;
@@ -130,11 +130,7 @@ nav ul li {
     color #1f0e1f ;
 }
     
-li {
-    list-style: none;
-    padding: 1.5em;
-    font-size: larger;
-  }
+  
 @media screen and (min-width: 641px) and (max-width: 900px)  {
     .container {
         grid-template-columns:
@@ -186,4 +182,4 @@ li {
     position: absolute;
     white-space: nowrap;
     width: 1px;
-}
+  }
