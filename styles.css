@@ -57,6 +57,7 @@ h2{
 }
 
 a{
+
     color:#000000;
     text-decoration: none;
 }
@@ -135,6 +136,7 @@ nav ul {
     flex-flow: row nowrap;
     justify-content: space-around;
     color: #1f0e1f ;
+    
 }
     
 nav ul li {
@@ -173,10 +175,10 @@ nav ul li {
       display: block;
       padding: 10px 5px;
       margin: 5px;
-      background: white;
+      background: #6277bf;
       color: #000000 ;
     }
-}
+
 
 .sr-only {
     border: 0;
