@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 1em;
 }
 
@@ -72,7 +72,7 @@ hr{
 
 .skip-link {
     background: #cad3ed;
-    color: #6277bf ;
+    color: #1f0e1f ;
     font-weight: 700;
     padding: 4px;
     position: absolute;
