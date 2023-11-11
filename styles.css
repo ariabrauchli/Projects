@@ -156,9 +156,10 @@ nav ul li {
     }
     
     nav ul {
-      flex-flow: column nowrap;
-      text-align: center;
-    }
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+      }
   
     nav ul li a {
       display: block;
