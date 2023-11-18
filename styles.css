@@ -38,8 +38,11 @@ nav {
     padding: 1% 2% 1% 0%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans&display=swap');
-
+header {grid-area: head1; background:white;}
+nav {grid-area: nav1; background:#6277bf}
+main {grid-area: main1; background: #f7f7f7; max-height: 100%;}
+#side1 {grid-area: side1; background: #Ffffff;}
+footer {grid-area: foot1; background: white;}
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
@@ -146,11 +149,6 @@ hr{
     "foot1     foot1     foot1";
 }
 
-header {grid-area: head1; background:white;}
-nav {grid-area: nav1; background:#B6FF97;}
-main {grid-area: main1; background: #f7f7f7; max-height: 100%;}
-#side1 {grid-area: side1; background: #F7f7f7;}
-footer {grid-area: foot1; background: white;}
 
 
   
