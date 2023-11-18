@@ -3,31 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 
 
-nav ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    color: #1f0e1f ;
-    text-align: center;
-  }
-
-nav ul li a {
-  display: block;
-  padding: 10px 5px;
-  margin: 5px;
-  background: #6277bf;
-  color: #000000 ;
-}
-nav {
-    grid-area: navv;
-    max-height: none;
-  }
-
-  li {
-    list-style: none;
-    padding: 1.5em;
-    font-size: larger;
-  }
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -77,9 +52,7 @@ a{
     text-decoration: none;
 }
 
-a:hover{
-    color:rgb(243, 247, 247);
-}
+
 
 p{
     margin: 1.2em 0;
