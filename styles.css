@@ -127,7 +127,7 @@ hr{
 .container {
     display: grid;
     grid-template-columns: 1.25fr 3fr 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 2fr);
     grid-template-areas:
       "head1 head1 head1"
       "nav1 nav1 nav1"
