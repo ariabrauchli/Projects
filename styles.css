@@ -60,8 +60,6 @@ header, main, aside{
     padding: 1em;
 }
 
-
-
 main{
     border: 20px white solid;
     font-family: 'Quicksand', sans-serif;
@@ -71,7 +69,7 @@ main{
     border: 20px white solid;
 }
 
-footer{
+#foot1{
     padding: 1.25em;
 }
 
@@ -89,17 +87,14 @@ a{
     text-decoration: none;
 }
 
-
-
 p{
     margin: 1.2em 0;
     line-height: 1.6em;
 }
 
-
 hr{
     margin-bottom:1.2em;
-    background-color:#cad3ed;
+    background-color:#404040;
     height:3px;
 }
 
@@ -109,15 +104,16 @@ hr{
     font-weight: 700;
     padding: 4px;
     position: absolute;
-    text-align: left !important;
     transform: translateY(-200%);
-    transition: transform 0.3s; 
 }
-
+  
 .skip-link:focus {
     transform: translateY(0%);
 }
-
+  
+.skip-link {
+    transition: transform 0.3s;
+}
 
 *,
 *:before,
@@ -128,49 +124,52 @@ hr{
 }
 
 .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    background: rgb(175, 222, 176);
     display: grid;
-    grid-template-columns: 1.25fr 3fr 1fr;
-    grid-template-rows: repeat(5, 2fr);
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns:
+     1.25fr       3fr       1fr;
     grid-template-areas:
-      "head1 head1 head1"
-      "nav1 nav1 nav1"
-      "side1 main1 main1"
-      "side1 main1 main1"
-      "side1 main1 main1"
-      "foot1 foot1 foot1";
-    align-items: center;
-    justify-content: center;
-  }
+    "head1     head1     head1"
+    "nav1      nav1      nav1"
+    "side1     main1     main1"
+    "side1     main1     main1"
+    "side1     main1     main1"
+    "foot1     foot1     foot1";
+}
 
 
 
+  
+@media screen and (min-width: 641px) and (max-width: 900px)  {
+    .container {
+        grid-template-columns:
+        1fr 1fr;
+        grid-template-areas:
+        "head1 head1"
+        "nav1  nav1"
+        "side1 side1"
+        "main1 main1"
+        "foot1 foot1";
+    }
+}
     
-
-
-    
-@media screen
-    and (max-width: 640px) {
-        .container {
-            grid-template-columns:
-             1fr; 
-            grid-template-areas:
-            "head"
-            "para"
-            "nav1"
-            "foot";
-        }
-        .me {
-            width: 1fr;
-            float: center;
-        }
-        
-        nav {
-            max-height: none;
-        }
-    } 
+@media screen and (max-width: 640px)  
+    .container {
+    grid-template-columns:
+       1fr;
+    grid-template-areas:
+      "head1"
+      "nav1"
+      "side1"
+      "main1"
+      "foot1";
+    }
     
     
-
 
 .sr-only {
     border: 0;
