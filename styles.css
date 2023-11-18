@@ -3,6 +3,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 
 
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    color: #1f0e1f ;
+    text-align: center;
+  }
+
+nav ul li a {
+  display: block;
+  padding: 10px 5px;
+  margin: 5px;
+  background: #6277bf;
+  color: #000000 ;
+}
+nav {
+    grid-area: navv;
+    max-height: none;
+  }
+
+  li {
+    list-style: none;
+    padding: 1.5em;
+    font-size: larger;
+  }
+
+  a:hover{
+    color:rgb(247, 248, 248);
+}
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -60,8 +89,8 @@ p{
 }
 
 .picofme{
-    width: 25%;
-    float: left;
+    width: 50%;
+    float: center;
     padding: 2% 4% 2% 0%;
 }
 
@@ -116,18 +145,9 @@ main {grid-area: main1; background: #f7f7f7; max-height: 100%;}
 #side1 {grid-area: side1; background: #Ffffff;}
 footer {grid-area: foot1; background: white;}
 
-nav ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    color: #1f0e1f ;
+
     
-}
-    
-nav ul li {
-    list-style: none
-    color #1f0e1f ;
-}
+
 .me{
     width: 1.25fr;
     float: left;
