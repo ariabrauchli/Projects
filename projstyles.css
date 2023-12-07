@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #F0F2F0;
+    color: #F0F2F0;
 }
 
 section {
@@ -43,7 +43,7 @@ section {
 
 footer {
     background-color: #DFF2ED;
-    color: #fff;
+    color: #000000;
     text-align: center;
     padding: 20px;
 }
