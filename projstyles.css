@@ -9,6 +9,9 @@ body {
 h1{
     font-size: 60px;
 }
+h1{
+    font-size: 30px;
+}
 header {
     font-family: 'Didot', sans-serif;
     background-color: #F2E0D5;
