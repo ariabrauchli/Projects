@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Montserrat:ital@0;1&display=swap');
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
@@ -199,3 +199,7 @@ summary{
     text-align: center;
 }
 
+h2{
+    font-family: 'Montserrat', italic;
+    font-style: italic;
+}
