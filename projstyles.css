@@ -107,7 +107,10 @@ footer {
     text-align: center;
     list-style-position: inside;
   }
-  button{
-    background-color: #DFF2ED;
+ .navvy{
+    background-color: #F2E0D5;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
  }
  
