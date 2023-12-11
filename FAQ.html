@@ -82,7 +82,7 @@
                 button.addEventListener('click', function() {
                     var isExpanded = button.getAttribute('aria-expanded') === 'true';
                     button.setAttribute('aria-expanded', !isExpanded);
-                    answer.setAttribute('aria-hidden', isExpanded);
+                    answer.setAttribute('aria-hidden', String(!isExpanded));
                 });
             });
         });
