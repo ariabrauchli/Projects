@@ -20,7 +20,7 @@
             <li><a href="why.html">Why Universal Design?</a></li>
             <li><a href="what.html">What is Universal Design?</a></li>
             <li><a href="how.html">How to Achieve Universal Design</a></li>
-            <li><a href="FAQ.html" aria-current="page">FAQ</a></li>
+            <li><a href="faq.html" aria-current="page">FAQ</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
@@ -53,15 +53,15 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            var faqButtons = document.querySelectorAll('.faq-item button');
+            var faqItems = document.querySelectorAll('.faq-item');
 
-            faqButtons.forEach(function(button) {
+            faqItems.forEach(function(item) {
+                var button = item.querySelector('button');
+                var answer = item.querySelector('p');
+
                 button.addEventListener('click', function() {
-                    var answerId = this.getAttribute('aria-controls');
-                    var answer = document.getElementById(answerId);
-
-                    var isExpanded = this.getAttribute('aria-expanded') === 'true';
-                    this.setAttribute('aria-expanded', !isExpanded);
+                    var isExpanded = button.getAttribute('aria-expanded') === 'true';
+                    button.setAttribute('aria-expanded', !isExpanded);
                     answer.setAttribute('aria-hidden', isExpanded);
                 });
             });
