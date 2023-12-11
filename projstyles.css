@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Montserrat&display=swap');
 body {
-    font-family: 'Didot', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: .2em 0;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Didot', sans-serif;
     background-color: #F2E0D5;
     color: #000000;
     text-align: center;
@@ -46,6 +46,7 @@ section {
 }
 
 footer {
+    font-family: 'Didot', sans-serif;
     background-color: #DFF2ED;
     color: #000000;
     text-align: center;
