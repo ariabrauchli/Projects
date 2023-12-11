@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
+    padding: .2em 0;
     background-color: #FFF6EF;
 }
 
@@ -90,4 +90,7 @@ footer {
     text-align: center;
     list-style-position: inside;
   }
-  
+  .center1 {
+    text-align: center;
+    list-style-position: inside;
+  }
