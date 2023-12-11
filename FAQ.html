@@ -21,7 +21,6 @@
             <li><a href="what.html">What?</a></li>
             <li><a href="how.html">How?</a></li>
             <li><a href="FAQ.html" aria-current="page">FAQ</a></li>
-            
         </ul>
     </nav>
 
@@ -29,28 +28,38 @@
         <h2 id="faq-heading">Universal Design FAQ</h2>
 
         <article class="faq-item" role="region">
-            <button aria-controls="answer1" aria-expanded="false">Q: How does Universal Design benefit society?</button>
-            <p id="answer1" aria-hidden="true">A: Universal Design benefits society by creating environments and products that are accessible to everyone, promoting inclusion and equal opportunities.</p>
+            <details>
+                <summary>Q: How does Universal Design benefit society?</summary>
+                <p>A: Universal Design benefits society by creating environments and products that are accessible to everyone, promoting inclusion and equal opportunities.</p>
+            </details>
         </article>
 
         <article class="faq-item" role="region">
-            <button aria-controls="answer2" aria-expanded="false">Q: Are there legal requirements for Universal Design?</button>
-            <p id="answer2" aria-hidden="true">A: In some regions, there are legal requirements and standards that encourage or mandate the implementation of Universal Design principles, especially in public spaces and services.</p>
+            <details>
+                <summary>Q: Are there legal requirements for Universal Design?</summary>
+                <p>A: In some regions, there are legal requirements and standards that encourage or mandate the implementation of Universal Design principles, especially in public spaces and services.</p>
+            </details>
         </article>
 
         <article class="faq-item" role="region">
-            <button aria-controls="answer3" aria-expanded="false">Q: Can Universal Design be applied to digital products?</button>
-            <p id="answer3" aria-hidden="true">A: Yes, Universal Design principles can and should be applied to digital products to ensure a seamless and inclusive user experience for people of all abilities.</p>
+            <details>
+                <summary>Q: Can Universal Design be applied to digital products?</summary>
+                <p>A: Yes, Universal Design principles can and should be applied to digital products to ensure a seamless and inclusive user experience for people of all abilities.</p>
+            </details>
         </article>
 
         <article class="faq-item" role="region">
-            <button aria-controls="answer4" aria-expanded="false">Q: How can designers learn more about Universal Design?</button>
-            <p id="answer4" aria-hidden="true">A: Designers can explore online resources, attend workshops, and read books/articles on Universal Design. Continuous learning is key to incorporating inclusive design practices.</p>
+            <details>
+                <summary>Q: How can designers learn more about Universal Design?</summary>
+                <p>A: Designers can explore online resources, attend workshops, and read books/articles on Universal Design. Continuous learning is key to incorporating inclusive design practices.</p>
+            </details>
         </article>
 
         <article class="faq-item" role="region">
-            <button aria-controls="answer5" aria-expanded="false">Q: Are there tools available to test the accessibility of a website?</button>
-            <p id="answer5" aria-hidden="true">A: Yes, there are various accessibility testing tools such as WAVE, Axe, and Lighthouse that can help designers identify and fix accessibility issues on their websites.</p>
+            <details>
+                <summary>Q: Are there tools available to test the accessibility of a website?</summary>
+                <p>A: Yes, there are various accessibility testing tools such as WAVE, Axe, and Lighthouse that can help designers identify and fix accessibility issues on their websites.</p>
+            </details>
         </article>
 
         <!-- Add more FAQ items as needed -->
@@ -72,22 +81,18 @@
     </footer>
 
     <script>
+        // No need to change the JavaScript code since details/summary elements handle toggle behavior.
         document.addEventListener('DOMContentLoaded', function() {
             var faqItems = document.querySelectorAll('.faq-item');
     
             faqItems.forEach(function(item) {
-                var button = item.querySelector('button');
-                var answer = item.querySelector('p');
-    
-                button.addEventListener('click', function() {
-                    var isExpanded = button.getAttribute('aria-expanded') === 'true';
-                    button.setAttribute('aria-expanded', isExpanded ? 'false' : 'true');
-                    answer.style.display = isExpanded ? 'none' : 'block';
+                var details = item.querySelector('details');
+                details.addEventListener('toggle', function() {
+                    // You can add custom logic if needed
                 });
             });
         });
     </script>
     
-
 </body>
 </html>
