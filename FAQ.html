@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Design FAQ</title>
+    <link rel="stylesheet" href="projstyles.css"> 
+   
+</head>
+<body>
+
+    <header role="banner">
+        <h1>Welcome to the Universal Design Hub</h1>
+        <p>Empowering designers to create for everyone</p>
+    </header>
+
+    <nav role="navigation">
+        <ul>
+            <li><a href="project.html">Home</a></li>
+            <li><a href="why.html">Why Universal Design?</a></li>
+            <li><a href="what.html">What is Universal Design?</a></li>
+            <li><a href="how.html">How to Achieve Universal Design</a></li>
+            <li><a href="faq.html" aria-current="page">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="faq" role="region" aria-labelledby="faq-heading">
+        <h2 id="faq-heading">Universal Design FAQ</h2>
+
+        <article class="faq-item" role="region">
+            <button aria-controls="answer1" aria-expanded="false">Q: How does Universal Design benefit society?</button>
+            <p id="answer1" aria-hidden="true">A: Universal Design benefits society by creating environments and products that are accessible to everyone, promoting inclusion and equal opportunities.</p>
+        </article>
+
+        <article class="faq-item" role="region">
+            <button aria-controls="answer2" aria-expanded="false">Q: Are there legal requirements for Universal Design?</button>
+            <p id="answer2" aria-hidden="true">A: In some regions, there are legal requirements and standards that encourage or mandate the implementation of Universal Design principles, especially in public spaces and services.</p>
+        </article>
+
+        <article class="faq-item" role="region">
+            <button aria-controls="answer3" aria-expanded="false">Q: Can Universal Design be applied to digital products?</button>
+            <p id="answer3" aria-hidden="true">A: Yes, Universal Design principles can and should be applied to digital products to ensure a seamless and inclusive user experience for people of all abilities.</p>
+        </article>
+
+        <!-- Add more FAQ items as needed -->
+
+    </section>
+
+    <footer role="contentinfo">
+        <p>&copy; Designed by Aria Brauchli.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var faqButtons = document.querySelectorAll('.faq-item button');
+
+            faqButtons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    var answerId = this.getAttribute('aria-controls');
+                    var answer = document.getElementById(answerId);
+
+                    var isExpanded = this.getAttribute('aria-expanded') === 'true';
+                    this.setAttribute('aria-expanded', !isExpanded);
+                    answer.setAttribute('aria-hidden', isExpanded);
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
