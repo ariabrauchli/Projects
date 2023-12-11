@@ -178,8 +178,12 @@ footer {
     list-style-position: inside;
     text-align: center;
   }
- .why{
+ .whyd{
     text-align: left;
+    list-style-position: inside;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: .2em 0;
     
  }
 
