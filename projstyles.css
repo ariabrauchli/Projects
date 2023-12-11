@@ -17,7 +17,7 @@ header {
     background-color: #F2E0D5;
     color: #000000;
     text-align: center;
-    
+    padding: 20px;
 }
 
 nav {
@@ -191,6 +191,9 @@ footer {
  }
 summary{
     font-size: 20px;
+}
+.resources-heading{
+    text-align: left;
 }
 
 
