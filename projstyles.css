@@ -72,7 +72,7 @@ footer {
     justify-content: center;
     text-align: center;
     padding: .2em 0;
-    margin: 1.8em 0;
+    margin: 5em 0;
   }
   .what{
     display: flex;
@@ -110,3 +110,4 @@ footer {
   button{
     background-color: #DFF2ED;
  }
+ 
