@@ -5,7 +5,9 @@ body {
     padding: .2em 0;
     background-color: #FFF6EF;
 }
-
+p{
+    padding: .2em 0;
+}
 header {
     background-color: #F2E0D5;
     color: #000000;
@@ -71,6 +73,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: .2em 0;
   }
   .what{
     display: flex;
@@ -78,6 +81,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: .2em 0;
   }
   .how{
     display: flex;
@@ -85,6 +89,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: .2em 0;
   }
   .center {
     text-align: center;
