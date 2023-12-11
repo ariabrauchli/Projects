@@ -6,7 +6,7 @@ body {
     background-color: #FFF6EF;
 }
 p{
-    padding: .2em 0;
+    padding: 20px;
 }
 header {
     background-color: #F2E0D5;
@@ -100,6 +100,10 @@ footer {
     list-style-position: inside;
   }
   .center3 {
+    text-align: center;
+    list-style-position: inside;
+  }
+  .center2 {
     text-align: center;
     list-style-position: inside;
   }
