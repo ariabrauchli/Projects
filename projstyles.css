@@ -5,10 +5,7 @@ body {
     padding: .2em 0;
     background-color: #FFF6EF;
 }
-p{
-    margin: 1.2em 0;
-    line-height: 1.6em;
-}
+
 header {
     background-color: #F2E0D5;
     color: #000000;
@@ -83,6 +80,11 @@ footer {
     justify-content: center;
     text-align: center;
     padding: .2em 0;
+    margin: 1.8em 0;
+  line-height: 1.8em;
+  word-wrap: break-word;
+  text-align: left;
+  width: 50%;
   }
   .how{
     display: flex;
