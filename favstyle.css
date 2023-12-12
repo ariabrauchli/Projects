@@ -93,7 +93,7 @@ body {
 
 .navi ul a {
   border: 0;
-  color: white;
+  color: #323159;
   display: block;
   margin: 0;
   padding: 0.5em 1em;
@@ -102,7 +102,7 @@ body {
 
 .navi ul a:hover,
 .navi ul a:focus {
-  background-color: white;
+  background-color: #323159;
   color:#323159;
   margin-bottom: 0;
   text-decoration: none;
@@ -122,7 +122,7 @@ body {
   display: flex;
   padding: 10px 40px 10px 40px;
   font-family: "Montserrat", sans-serif; 
-  color: white; 
+  color: #323159; 
   font-size: 1em;
 }
 
@@ -150,13 +150,13 @@ body {
 
 .navi button:hover,
 .navi button[aria-expanded="true"] {
-  background-color: white;
+  background-color: #323159;
   color: #BFA4BB;
 }
 
 .navi button:hover::after,
 .navi button[aria-expanded="true"]::after {
-  border-color: white;
+  border-color: #323159;
 }
 
 
@@ -234,31 +234,31 @@ header {
 
 nav {
   grid-area: nav1;
-  color: white; 
+  color: #323159; 
 }
 
 main {
   grid-area: main1;
   max-height: 100%;
-  color: white; 
+  color: #323159; 
 }
 
 footer {
   grid-area: footer1;
-  color: white;
+  color: #323159;
 }
 
 a {
-  color:white; 
+  color:#323159; 
   font-family: "Montserrat", sans-serif; 
-  color: white; 
+  color: #323159; 
   font-size: 1em;
   text-decoration: none;
   padding: 10px 20px 0 20px;
 }
 
 .normalLink {
-  color: white; 
+  color: #323159; 
   font-family: "Montserrat", sans-serif; 
   color: #fac632;
   text-decoration: underline; 
