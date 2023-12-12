@@ -1,6 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Montserrat:ital@0;1&display=swap');
 
 .sr-only {
   border: 0; 
@@ -45,7 +44,7 @@
 
 body {
     background: #F2DAD8;
-    font-family: "Poppins", sans-serif; 
+    font-family: "Montserrat", sans-serif; 
     font-size: 1.5em; 
 }
 
@@ -55,7 +54,7 @@ body {
   list-style-type: none;
   padding: 10px 40px 10px 40px;
   margin: 0;
-  font-family: "Poppins", sans-serif; 
+  font-family: "Montserrat", sans-serif; 
   color: #323159; 
   font-size: 1em;
   text-decoration: none;
@@ -110,7 +109,7 @@ body {
 }
 
 .navi ul a:focus {
-  outline: 5px solid #222645;
+  outline: 5px solid #BFA4BB;
   position: relative;
 }
 
@@ -119,10 +118,10 @@ body {
   align-items: center;
   background-color: transparent;
   border: 1px solid transparent;
-  border-right-color: #222645;
+  border-right-color: #BFA4BB;
   display: flex;
   padding: 10px 40px 10px 40px;
-  font-family: "Poppins", sans-serif; 
+  font-family: "Montserrat", sans-serif; 
   color: white; 
   font-size: 1em;
 }
@@ -133,8 +132,8 @@ body {
 
 .navi button::after {
   content: "";
-  border-bottom: 1px solid #222645;
-  border-right: 1px solid #222645;
+  border-bottom: 1px solid #BFA4BB;
+  border-right: 1px solid #BFA4BB;
   height: 0.5em;
   margin-left: 0.75em;
   width: 0.5em;
@@ -147,7 +146,7 @@ body {
 
 .navi button:focus,
 .navi .main-link:focus {
-  border-color: #222645;
+  border-color: #BFA4BB;
   outline: 5px solid rgba(238, 238, 255, 0.75);
   position: relative;
 }
@@ -155,7 +154,7 @@ body {
 .navi button:hover,
 .navi button[aria-expanded="true"] {
   background-color: white;
-  color: #222645;
+  color: #BFA4BB;
 }
 
 .navi button:hover::after,
@@ -180,11 +179,11 @@ img {
 h1, 
 h2, 
 h3 {
-    font-family: 'Eb Garamond', serif;
+    font-family: 'Didot', sans-serif;
     font-weight: 700; 
     font-size: .2em 0;
     padding: .5em 0em .5em 0em;
-    color: #fac632;
+    color: #22213e;
 }
 
 
@@ -216,7 +215,7 @@ header, footer {
 .container{
   max-width: 1200 px; 
   margin: 0 auto; 
-  background: #222645;
+  background: #BFA4BB;
   display: grid; 
   width: 100 vw; 
   height: 100 vh; 
@@ -254,7 +253,7 @@ footer {
 
 a {
   color:white; 
-  font-family: "Poppins", sans-serif; 
+  font-family: "Montserrat", sans-serif; 
   color: white; 
   font-size: 1em;
   text-decoration: none;
@@ -263,7 +262,7 @@ a {
 
 .normalLink {
   color: white; 
-  font-family: "Poppins", sans-serif; 
+  font-family: "Montserrat", sans-serif; 
   color: #fac632;
   text-decoration: underline; 
   padding: 0; 
