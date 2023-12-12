@@ -1,47 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Favorite Project</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Favorite Project</title>
+  <link rel="stylesheet" href="favstyle.css">
+</head>
+
 
 <body>
+  <div class="container">
     <header>
-        <h1>Cat Repellant 2000</h1>
+      <a class="skip-link" href="#favoriteProject">Skip to main content</a>
+      <h1>Aria's Homepage</h1>
     </header>
 
-    <section>
-        <img src="https://i.imgur.com/eWm9wpI.png" alt="A wooden box with cat ears and a wired cat toy sticking out of the top">
+    <nav aria-label="Navigation">
+      <ul id="navvy" class="navi">
+        <li><a href="lab2.html">Assignment 2</a></li>
+      <li><a href="lab3.html">Assignment 3</a></li>
+      <li><a href="lab4.html">Assignment 4</a></li>
+      <li><a href="project.html">Final Project</a></li>
+      <li><a href="fav.html">Favorite Project</a></li>
+    
+      </ul>
+    </nav>
+   
+    <main id="favoriteProject" class="favProject" tabindex="-1" role="region">
+      <h2 class="normalHeader">Cat Repellant 2000</h2>
 
-        <h2>About the Project</h2>
-        <p>
-            In Object, I was tasked with creating something using an Arduino based on a pet peeve of mine. It really annoys me when my cat meows constantly while I'm doing my schoolwork, so I created a cat toy for him. 
-            I programmed the Arduino to rotate a servo motor, and I attached a cat toy to it. I made a cute box out of wood that has cat-like features and a paw print engraved on the side. Although I worked really hard ont his project, it turns out my cat doesn't like motors.
-        </p>
+      <p>
+        In Object, I tackled a pet peeve by creating an Arduino project aimed at resolving my cat Tai's study-time interruptions.
+      </p>
 
-        <h2>Key Features</h2>
-        <ul>
-            <li>Community Forums</li>
-            <li>Interactive Coding Challenges</li>
-            <li>Resource Library</li>
-            <li>Project Showcase</li>
-        </ul>
+      <figure>
+        <img class="catbox" src="https://i.imgur.com/eWm9wpI.png" alt="A wooden box with cat ears and a wired cat toy sticking out of the top">
+      </figure>
 
-        <h2>Project Team</h2>
-        <p>
-            The TechHub project was a collaborative effort led by [Your Name]. The team consisted of passionate
-            individuals with diverse skills in software development, design, and community management.
-        </p>
+      <p>
+        The technical journey involved programming a Servo, designing a custom wooden box with Makercase and Rhino, 
+        and overcoming setbacks like measurement oversights and compatibility issues. 
+        Despite challenges, the assembly resulted in a whimsically spinning toy.
+      </p>
 
-        <h2>Get Involved</h2>
-        <p>
-            We welcome you to join the TechHub community! Whether you're a seasoned developer or just starting
-            your journey, there's a place for you in our tech-savvy community. Connect with us today and be part of
-            the innovation.
-        </p>
-    </section>
+      <p>
+        Testing the device on Tai during a demo revealed initial disinterest, earning it the nickname "Cat Repellent 2000." 
+        Encouraged by feedback, I further enhanced the project by adding a motion sensor and a chittering noise to mimic prey, 
+        overcoming challenges like finding suitable audio online and resolving compatibility issues.
+      </p>
+
+      <figure>
+        <img class="catbox" src="https://i.imgur.com/BIiKhnV.png" alt="A wooden box with the words Cat Repellant 2000">
+      </figure>
+
+      <p>
+        The refined design, complete with engraved details and a breadboard, was put to the test with a pink feather swap. The heartwarming result: walking into my living room one afternoon to find Tai playing independently, 
+        confirming the project as a delightful and successful solution to my study interruptions.
+      </p>
+
+
+      
+    
+      <figure>
+        <img class="catbox" src="https://i.imgur.com/ApztoD7.png" alt="A grey, long haired Siberian cat lounging on a couch">
+      </figure>
+
+    </main>
+
+    <footer>
+      Designed by Aria Brauchli
+      <small>&copy; 2023</small>
+    </footer>
+
+
+  </div>
+  
 </body>
-
 </html>
