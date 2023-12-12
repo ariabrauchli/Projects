@@ -58,6 +58,8 @@ body {
   color: #323159; 
   font-size: 1em;
   text-decoration: none;
+  border: 1px solid tra;
+  border-color: #22213e;
 }
 
 .navi ul {
