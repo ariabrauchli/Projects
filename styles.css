@@ -9,8 +9,8 @@ body {
 
 nav ul {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
+    flex-flow: column nowrap;
+    align-items: center;
     color: #1f0e1f;
     text-align: center;
 }
@@ -22,6 +22,7 @@ nav ul li a {
     background: #9fb2f1;
     color: #000000;
 }
+
 
 nav {
     grid-area: nav1;
@@ -39,8 +40,8 @@ a:hover {
 }
 
 .me {
-    width: 1.25fr;
-    margin: auto; /* Center the element */
+    width: 100%; /* Full width on mobile */
+    text-align: center; 
     padding: 1% 2% 1% 0%;
 }
 
@@ -142,7 +143,7 @@ hr {
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 100%; /* Full width on mobile */
     margin: 0 auto;
     background: rgb(214, 234, 215);
     display: grid;
