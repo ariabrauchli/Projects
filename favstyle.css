@@ -49,7 +49,7 @@ body {
 }
 
 .navi {
-  background-color: #BFA4BB;
+  background-color: #F2C9DC;
   display: flex;
   list-style-type: none;
   padding: 10px 40px 10px 40px;
@@ -132,8 +132,6 @@ body {
 
 .navi button::after {
   content: "";
-  border-bottom: 1px solid #BFA4BB;
-  border-right: 1px solid #BFA4BB;
   height: 0.5em;
   margin-left: 0.75em;
   width: 0.5em;
@@ -146,7 +144,6 @@ body {
 
 .navi button:focus,
 .navi .main-link:focus {
-  border-color: #BFA4BB;
   outline: 5px solid rgba(238, 238, 255, 0.75);
   position: relative;
 }
