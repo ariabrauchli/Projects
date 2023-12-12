@@ -169,7 +169,7 @@ img {
 }
 
 .catbox {
-  float: right; 
+  float: center; 
   max-width: 45%; 
 }
 
