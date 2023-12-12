@@ -177,3 +177,8 @@ hr {
     white-space: nowrap;
     width: 1px;
 }
+header {grid-area: head1; background:white;}
+nav {grid-area: nav1; background:#9fb2f1}
+main {grid-area: main1; background: #f7f7f7; max-height: 100%;}
+#side1 {grid-area: side1; background: #Ffffff;}
+footer {grid-area: foot1; background: white;}
