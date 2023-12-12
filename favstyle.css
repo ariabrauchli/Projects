@@ -87,14 +87,13 @@ body {
 
 .navi li a:hover, 
 .navi li a:focus {
-  background-color: #f2d9e5;
   color:#323159;
   margin-bottom: 0;
   text-decoration: none;
 }
 
 .navi ul a {
-  border: 0;
+  border: 1px;
   color: #323159;
   display: block;
   margin: 0;
