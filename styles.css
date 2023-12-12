@@ -26,7 +26,7 @@ nav ul li a {
 nav {
     grid-area: nav1;
     max-height: none;
-}
+} 
 
 li {
     list-style: none;
